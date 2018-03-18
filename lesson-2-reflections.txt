@@ -1,0 +1,12 @@
+ls -a: check status of the directory is on git
+git status
+git add
+git commit
+
+git diff: compares working directory to staging area
+git diff --stages: compare staging area to most recent commit
+git diff commit1 commit2: compare two commits in the repo
+git reset --hard: try to use this carefully, what you have edited in the working directory will be deleted!
+
+git log --graph --oneline branch1 branch2: in this case you can see how the branches look like with all the commits
+git show: compare with parents only

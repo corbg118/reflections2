@@ -1,0 +1,11 @@
+In this class, we learnt how several kinds of version controlling works. And I learnt several kinds of commands:
+
+git log
+git diff version0.1 version0.2
+git ......
+
+in lesson 1, i first lernt how to clone from git hub using git clone.
+
+Then check the status using git log
+
+compare using git diff
