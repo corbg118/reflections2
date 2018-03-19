@@ -5,3 +5,7 @@ In this lesson, i learnt the folloiwng:
 2. git pull origin master
 
 3. git pull = git fetch + git merge
+
+4. There are quite a lot of new concepts learnt after that, for example how to work on a branch, and create a pull request in github to share with other people. and work on resolving conflicts
+
+5. Noted that it's important to understand the process on how to resolve conflicts, for example, i create a branch (different-oil) and share with others. Then others make changes to the master branch. We first git fetch the codes to master branch, then git diff to see the changes. Then git merge origin/master master to merge the changes to local repo. After that, we go to differnet-oil to git merge master different-oil, fix the conflicts, add to staging area, commit, push to github. Then we can choose to close the pull request by merging different-oil back to master.
